@@ -17,7 +17,7 @@ const app = initializeApp(firebaseConfig);
 
 // Initialize Firestore
 const admin = require('firebase-admin');
-const serviceAccount = require('./ioepr-b684b-firebase-adminsdk-zk2eo-076846654c.json');
+const serviceAccount = require('./ioepr-b684b-firebase-adminsdk-zk2eo-abcb34afa4.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
